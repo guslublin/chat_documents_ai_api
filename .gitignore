@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+*.pyc
+__pycache__/
+
+# Archivos de base de datos
+*.sqlite3
+
+# Archivos de migración de Django
+*/migrations/*
+
+# Archivos de medios y archivos subidos
+media/
+uploaded_files/
+processed_files/
+
+# Configuraciones específicas del sistema operativo
+*.DS_Store
+*.log
+
+# Archivos del sistema operativo (macOS y Windows)
+.DS_Store
+Thumbs.db
+
+# Configuración del entorno local
+.env
