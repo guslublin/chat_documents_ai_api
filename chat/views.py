@@ -6,10 +6,10 @@ import openai
 from pinecone import Pinecone, ServerlessSpec, PineconeApiException
 
 # Configuración de OpenAI
-openai.api_key = "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"
+openai.api_key = ""
 
 # Inicializar Pinecone usando la nueva API
-pinecone_client = Pinecone(api_key='e1870b8a-1371-4d9f-b4ac-757a9d69b06e')
+pinecone_client = Pinecone(api_key='')
 
 # Verificar si el índice existe, si no, crearlo
 try:
